@@ -1,0 +1,13 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: pcf
+  name: pcf-pod-mgr
+rules:
+- apiGroups: ["","extensions", "apps"]
+  resources: ["pods", "pods/log","pods/exec","replicaset","deployments","services","configmaps","podsecuritypolicies","daemonset","replicaset","statefulset"]
+  verbs: ["get","list", "create", "update","delete"]
+- apiGroups: ["batch", "extensions"]
+  resources: ["jobs"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
