@@ -11,8 +11,7 @@ Credits to:
 
 # HELM based deployment
 
-Credits to:
-* [Kubernetes Monitoring with Prometheus](https://dev.to/rayandasoriya/kubernetes-monitoring-with-prometheus-2l7k)
+[prometheus-operator](https://github.com/coreos/prometheus-operator)
 
 NOTE: [Deprecated APIs Removed In 1.16: Here’s What You Need To Know](https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/)
 * ./charts/prometheus-node-exporter/templates/psp.yaml
@@ -24,3 +23,9 @@ NOTE: [Deprecated APIs Removed In 1.16: Here’s What You Need To Know](https://
 * ./charts/grafana/templates/deployment.yaml
 * ./charts/kube-state-metrics/templates/deployment.yaml
 
+Credits to:
+* [Kubernetes Monitoring with Prometheus](https://dev.to/rayandasoriya/kubernetes-monitoring-with-prometheus-2l7k)
+
+
+# Grafana admin password
+prom-operator
