@@ -1,6 +1,9 @@
 # K8s Prometheus tutorial
 
-# YAML based deployment
+
+## YAML based deployment
+
+
 
 Credits to:
 * [Binbin Wilson, Bangalore](https://github.com/bibinwilson/kubernetes-prometheus)
@@ -9,7 +12,8 @@ Credits to:
 * [Production grade Kubernetes Monitoring using Prometheus](https://medium.com/faun/production-grade-kubernetes-monitoring-using-prometheus-78144b835b60)
 
 
-# HELM based deployment
+
+## HELM based deployment
 
 [prometheus-operator](https://github.com/coreos/prometheus-operator)
 
